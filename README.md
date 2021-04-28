@@ -1,4 +1,8 @@
-## WireframeRendererBlade
+## WireframeRendererLatte
+
+*Forked from mauricius/WireframeRendererBlade*
+
+### Original WireframeRendererBlade README.md follows for now:
 
 Blade renderer for the ProcessWire [Wireframe](https://wireframe-framework.com/) output framework.
 

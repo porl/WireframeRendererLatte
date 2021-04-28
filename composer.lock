@@ -1,0 +1,209 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "f22a6b1d0de315026d6fa6ad32aa87ff",
+    "packages": [
+        {
+            "name": "hari/pw-module",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/harikt/pwmoduleinstaller.git",
+                "reference": "72baf9e2a6c810f09ce67a9f2c1ce079e57bea43"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/harikt/pwmoduleinstaller/zipball/72baf9e2a6c810f09ce67a9f2c1ce079e57bea43",
+                "reference": "72baf9e2a6c810f09ce67a9f2c1ce079e57bea43",
+                "shasum": ""
+            },
+            "type": "composer-installer",
+            "extra": {
+                "class": "PW\\Composer\\SystemInstaller"
+            },
+            "autoload": {
+                "psr-0": {
+                    "PW\\Composer\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-2-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Paul M. Jones",
+                    "email": "pmjones88@gmail.com",
+                    "homepage": "http://paul-m-jones.com"
+                },
+                {
+                    "name": "Hari KT",
+                    "email": "kthari85@gmail.com",
+                    "homepage": "http://harikt.com"
+                },
+                {
+                    "name": "Kyle Robinson Young",
+                    "email": "kyle@dontkry.com",
+                    "homepage": "https://github.com/shama"
+                }
+            ],
+            "description": "Installs processwire 3rd party modules to PW system \"site/modules\" directory.",
+            "keywords": [
+                "installer",
+                "module",
+                "processwire"
+            ],
+            "support": {
+                "issues": "https://github.com/harikt/pwmoduleinstaller/issues",
+                "source": "https://github.com/harikt/pwmoduleinstaller/tree/develop"
+            },
+            "time": "2016-03-11T04:01:22+00:00"
+        },
+        {
+            "name": "latte/latte",
+            "version": "v2.10.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/nette/latte.git",
+                "reference": "dd2c58863e830c22a2c6b85af63f37b829d255df"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/nette/latte/zipball/dd2c58863e830c22a2c6b85af63f37b829d255df",
+                "reference": "dd2c58863e830c22a2c6b85af63f37b829d255df",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "ext-tokenizer": "*",
+                "php": ">=7.1 <8.1"
+            },
+            "conflict": {
+                "nette/application": "<2.4.1"
+            },
+            "require-dev": {
+                "nette/php-generator": "^3.3.4",
+                "nette/tester": "~2.0",
+                "nette/utils": "^3.0",
+                "phpstan/phpstan": "^0.12",
+                "tracy/tracy": "^2.3"
+            },
+            "suggest": {
+                "ext-fileinfo": "to use filter |datastream",
+                "ext-iconv": "to use filters |reverse, |substring",
+                "ext-mbstring": "to use filters like lower, upper, capitalize, ...",
+                "nette/php-generator": "to use tag {templatePrint}",
+                "nette/utils": "to use filter |webalize"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.10-dev"
+                }
+            },
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause",
+                "GPL-2.0-only",
+                "GPL-3.0-only"
+            ],
+            "authors": [
+                {
+                    "name": "David Grudl",
+                    "homepage": "https://davidgrudl.com"
+                },
+                {
+                    "name": "Nette Community",
+                    "homepage": "https://nette.org/contributors"
+                }
+            ],
+            "description": "☕ Latte: the intuitive and fast template engine for those who want the most secure PHP sites. Introduces context-sensitive escaping.",
+            "homepage": "https://latte.nette.org",
+            "keywords": [
+                "context-sensitive",
+                "engine",
+                "escaping",
+                "html",
+                "nette",
+                "security",
+                "template",
+                "twig"
+            ],
+            "support": {
+                "issues": "https://github.com/nette/latte/issues",
+                "source": "https://github.com/nette/latte/tree/v2.10.3"
+            },
+            "time": "2021-02-22T11:17:13+00:00"
+        },
+        {
+            "name": "wireframe-framework/processwire-composer-installer",
+            "version": "1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/wireframe-framework/processwire-composer-installer.git",
+                "reference": "80d6c43ee9b4d924566350547b9686018e480c10"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/wireframe-framework/processwire-composer-installer/zipball/80d6c43ee9b4d924566350547b9686018e480c10",
+                "reference": "80d6c43ee9b4d924566350547b9686018e480c10",
+                "shasum": ""
+            },
+            "require": {
+                "composer-plugin-api": "^1.0 || ^2.0",
+                "hari/pw-module": "^1.0.0"
+            },
+            "type": "composer-plugin",
+            "extra": {
+                "class": "wireframe\\ComposerInstaller\\Plugin"
+            },
+            "autoload": {
+                "psr-4": {
+                    "wireframe\\ComposerInstaller\\": "src/ComposerInstaller/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MPL-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Teppo Koivula",
+                    "email": "teppo@wireframe-framework.com",
+                    "homepage": "https://wireframe-framework.com"
+                }
+            ],
+            "description": "Custom Composer installer for the ProcessWire CMS/CMF modules and site profiles.",
+            "homepage": "https://wireframe-framework.com/docs/processwire-composer-installer/",
+            "keywords": [
+                "composer",
+                "installer",
+                "processwire"
+            ],
+            "support": {
+                "issues": "https://github.com/wireframe-framework/processwire-composer-installer/issues",
+                "source": "https://github.com/wireframe-framework/processwire-composer-installer/tree/1.1.0"
+            },
+            "time": "2020-12-09T19:39:28+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=7.1"
+    },
+    "platform-dev": [],
+    "plugin-api-version": "2.0.0"
+}
